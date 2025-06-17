@@ -1,0 +1,39 @@
+/* it takes occurence */
+div>h1:first-child{
+    background-color: black;
+}
+/* it takes occurence */
+div>h2:first-child{
+    background-color: bisque;
+}
+/* it takes occurence */
+div>h1:last-child{
+    background-color: green;
+}
+/* it takes occurence */
+div>h3:last-child{
+    background-color: red;
+}
+/* it takes position */
+div>h1:first-of-type{
+    background-color: aqua;
+}
+/* it takes position */
+div>h2:last-of-type{
+    background-color: hotpink;
+}
+/* it takes occurence */
+div>section:nth-of-type(5){
+    background-color: brown;
+}
+/* it takes position */
+div>nav:nth-child(6){
+    background-color: blue;
+}
+/* it takes position*/
+div>h1:nth-child(even){
+    background-color: chartreuse;
+}
+div>h3:nth-child(4){
+    background-color: cornflowerblue;
+}

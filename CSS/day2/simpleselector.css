@@ -1,0 +1,27 @@
+#d1{
+    height: 50px;
+    width:300px;
+    background-color: aqua;
+}
+.d2{
+    height: 50px;
+    width:300px;
+    background-color: green;
+}
+.section{
+    height: 50px;
+    width:300px;
+    background-color:red;
+}
+nav,div,main,footer{
+    height: 20px;
+    width:300px;
+    background-color: greenyellow;
+}
+/* universal to select completely  */
+body{
+    background-color: hotpink;
+}
+*{
+    background-color: black;
+}

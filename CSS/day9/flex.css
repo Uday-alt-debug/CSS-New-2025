@@ -1,0 +1,82 @@
+nav{
+    border: 2px solid;
+    height: 70px;
+}
+nav ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: center;
+    gap: 5%;
+    justify-content: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    width: 50%;
+    border: 2px solid green;
+}
+
+section{
+    border: 2px solid;
+    height: 250px;
+    width: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    gap: 30px;
+    
+}
+section div{
+    border: 2px solid;
+    height: 50px;
+    width: 90px;
+}
+aside{
+    border: 2px solid;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    justify-content: end;
+    justify-content: start;
+    justify-content: center;
+    align-items: center;
+    justify-content: end;
+    align-items: flex-end;
+    justify-content: start;
+    align-items: start;
+
+}
+aside div{
+    border: 2px solid red;
+    height: 40px;
+    width: 55px;
+}
+main{
+    border: 2px solid;
+    height: 190px;
+    width: 400px;
+}
+main div{
+    border: 2px solid red ;
+    width: 80px;
+    height: 40px;
+}
+#d2,#d3{
+    display: block;
+}
+#d2,#d3{
+    display: inline-flex;
+    height: 50px;
+    width: 50px;
+}
+span{
+    border: 2px solid;
+    display:inline-block;
+}

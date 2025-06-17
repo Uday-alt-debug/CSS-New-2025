@@ -1,0 +1,40 @@
+nav{
+    border: 2px solid;
+    height: 70px;
+    background-color: violet;
+    /* position: fixed;
+    width: 100%; */
+    position: sticky;
+    top: 0%;
+}
+ol{
+    list-style: none;
+}
+ol li+li{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+ol li+li+li{
+    position: absolute;
+    left: 90%;
+}
+p{
+    overflow-y: scroll;
+    height: 70px;
+}
+div{
+    border: 2px solid;
+    height: 50%;
+    overflow-x: hidden;
+    overflow-x: scroll;
+}
+section{
+    border: 2px solid;
+    width: 400%;
+    color: green;
+}
+/* h1 {
+    font-size: 400px;
+    font-style: ;
+} */

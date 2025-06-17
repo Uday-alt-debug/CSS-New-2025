@@ -1,0 +1,35 @@
+section::first-letter{
+    background-color: green;
+}
+section::first-line{
+    background-color: aqua;
+}
+p::before{
+    content:"hello world";
+    content:"😁";
+    content:"❤️";
+}
+p::after{
+    content:"Bye Bye";
+    content:"👍";
+}
+ol>li::marker{
+    content:"🤷‍♂️";
+}
+ol>li+li::marker{
+    content:"🤷";
+}
+ol>li+li+li::marker{
+    content:"😍";
+}
+ol>li+li+li+li::marker{
+    content:"😊";
+}
+div::selection{
+    background-color: black;
+    color: white;
+}
+input::placeholder{
+    color: red;
+    background-color:greenyellow;
+}

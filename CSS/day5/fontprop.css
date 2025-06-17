@@ -1,0 +1,25 @@
+p{
+    font-size: 50px;
+    font-weight: 900;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-style: italic;
+    font-style:oblique;
+    font-style: normal;
+    font-variant: small-caps;
+    font-variant: normal;
+}
+img{
+    height: 200px;
+    width: 200px;
+    filter: blur(10px);
+    filter: brightness(500%);
+    filter: contrast(400%);
+    filter:grayscale(400);
+    filter: hue-rotate(320deg);
+    filter: invert(200%);
+    /* filter: none; */
+    filter: opacity(100%);
+    filter: saturate(1500%);
+    filter: sepia(200px);
+    filter: drop-shadow(10px 20px red);
+}

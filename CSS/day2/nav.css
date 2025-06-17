@@ -1,0 +1,6 @@
+@import url(./external.css);
+nav{
+    height: 50px;
+    width:300px;
+    background-color: green;
+}

@@ -1,0 +1,112 @@
+nav{
+    border: 2px  ;
+    position: relative;
+    margin-left: 1%;
+    margin-right: 2%;
+    
+}
+h4{
+    border: 2px ;
+    color: blueviolet;
+    height: 23px;
+    text-transform:uppercase;
+    background-color: gray;
+    margin-left: -2%;
+    font-size: 20px;
+    word-spacing: 10px;
+}
+ol{
+    list-style: none;
+}
+div{
+    border: 2px  ;
+    height: 690px;
+    background-color: gray;
+    position:relative;
+    left: 1%;
+    margin-right: 1%;
+}
+#d1{
+    border: 2px solid white;
+    height: 680px ;
+    width: 500px;
+    background-color: white;
+    position: absolute;
+    left: 1.5%;
+    
+}
+#d3{
+    height: 300px;
+    width: 450px;
+    position: absolute;
+    left: 5%;
+}
+#d4{
+    height: 300px;
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+#d5{
+    position:absolute;
+    left: 39%;
+    top: 18%;
+    width: 60%;
+    height: 400px;
+}
+h1{
+    text-transform:uppercase;
+    position: absolute;
+    top: 9%;
+    left: 39%;
+}
+h3{
+    text-transform:uppercase;
+    position: absolute;
+    top: 19%;
+    left: 39%;
+}
+#d6{
+    text-transform:uppercase;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    background-color: white;
+    color: black;
+}
+#d7{
+    text-transform:uppercase;
+    position: absolute;
+    top: 46%;
+    left: 10%;
+    background-color: white;
+    color: black;
+}
+#d8{
+    text-transform:capitalize;
+    position: absolute;
+    top: 77%;
+    left: 39%;
+}
+button{
+   position: absolute;
+    top: 90%;
+    left: 38%; 
+    border-radius: 32px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+#d9{
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    width: 1640px;
+    height: 2px;
+    background-color: black;
+}
+/* body{
+    overflow: hidden;
+} */

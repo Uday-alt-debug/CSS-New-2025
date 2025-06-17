@@ -1,0 +1,6 @@
+@import url(./footer.css);
+main{
+    height: 20px;
+    width:300px;
+    background-color: aqua;
+}

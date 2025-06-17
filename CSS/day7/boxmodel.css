@@ -1,0 +1,58 @@
+nav{
+    border: 2px solid;
+    height: 40px;
+}
+ol{
+    list-style: none;
+}
+ol>li+li{
+    margin-left: 50%;
+    margin-top: -2%;
+}
+ol>li+li+li{
+    margin-left: 90%;
+    margin-top: %;
+}
+h1{
+   border: 2 solid ;
+
+}
+div{
+    border: 2px solid greenyellow;
+    width: 20%;
+    height: 80px;
+    border-top: 5px dotted blue ;
+    border-left: 15px double hotpink;
+    border-right: 5px dashed orange;
+}
+section{
+    border: 10px groove red;
+    height: 100px;
+    width: 100px;
+    border-style: inset;
+    border-style: outset;
+    border-style: ridge;
+    border-width: 40px;
+}
+main{
+    border: 2px solid red ;
+    height: 100px;
+    width: 100px;
+    /* border-radius: 50%; */
+    /* border-radius: 15px; */
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius:50% ;
+    border-bottom-left-radius: 50%;
+    outline: 4px dotted green;
+
+    outline-offset: 15px;
+    margin-left: 50%;
+    margin-right: 80%;
+}
+button{
+margin-top: 70%;
+margin-inline-start: 70%;
+margin-top: -90%;
+
+}

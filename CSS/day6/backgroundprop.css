@@ -1,0 +1,48 @@
+div{
+    background-color: blue;
+    background-image: url('../day5/Unsplash_zZs5Hbsi0G8.jpg');
+    background-size:cover ;
+    background-size: contain;
+    background-size: 250px 300px;
+    background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-position: top right;
+    background-position: top center;
+    background-position: center;
+    background-position: center right;
+    background-position: center left;
+    background-position: bottom center;
+    background-position: bottom left;
+    background-position-x: right;
+    background-attachment: scroll;
+    background-position: center;
+    background-attachment: fixed;
+    color:whitesmoke;
+
+    background-blend-mode: color;
+    background-blend-mode: color-burn;
+    background-blend-mode: color-dodge;
+    background-blend-mode: darken;
+    background-blend-mode: difference;
+    background-blend-mode: exclusion;
+    background-blend-mode: hard-light;
+    background-blend-mode: hue;
+    background-blend-mode: lighten;
+    background-blend-mode: luminosity;
+    background-blend-mode: overlay;
+    background-blend-mode: saturation;
+    background-blend-mode: screen;
+    background-blend-mode: soft-light;
+}
+p{
+    border: 4px dotted;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    background-clip: border-box;
+    background-clip: content-box;
+    background-clip: padding-box;
+}

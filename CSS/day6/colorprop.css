@@ -1,0 +1,11 @@
+div{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    background-color: rgb(201, 156,234);
+    background-color: rgba(13, 245, 1, 0.635);
+    background-color: hsl(33, 20%, 50%);
+    background-color: hsla(54, 57%,95%, 0.23);
+    background-color: #2acb52;
+}

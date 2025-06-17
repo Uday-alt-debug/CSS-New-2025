@@ -1,0 +1,57 @@
+div{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+}
+#d1{
+    background: linear-gradient(red,green,blue,pink,violet,hotpink,orange, yellow);
+}
+#d2{
+    background: linear-gradient(to bottom, red,green,blue,pink,violet,hotpink,orange, yellow);
+}
+#d3{
+    background: linear-gradient(to top , red,green,blue,pink,violet,hotpink,orange, yellow);
+}
+#d4{
+    background: linear-gradient(to left, red,green,blue,pink,violet,hotpink,orange, yellow);
+}
+#d5{
+    background: linear-gradient(to right, red,green,blue,pink,violet,hotpink,orange, yellow);
+}
+#d6{
+    background: linear-gradient(45deg, red,green,blue,pink,violet,hotpink,orange, yellow);
+}
+#d7{
+    background: radial-gradient( red,green,blue,pink,violet,hotpink,orange, yellow);
+}
+#d8{
+    background: radial-gradient(farthest-side at 20% 90% ,red,green,blue,pink,violet,hotpink,orange, yellow);
+}
+#d9{
+    background: radial-gradient(closest-side at 40% 10%, red,green,blue,pink,violet,hotpink,orange, yellow);
+}
+#d10{
+    background: radial-gradient(farthest-corner at 20% 90% , red,green,blue,pink,violet,hotpink,orange, yellow);
+}
+#d11{
+    background: radial-gradient(closest-corner at 20% 90% , red,green,blue,pink,violet,hotpink,orange, yellow);
+}
+#d12{
+    background-image: conic-gradient(red,yellow,white,black,green,hotpink,violet);
+    border-radius: 50%;
+    transform: translateX(0px)rotate(-360deg);
+    transition-duration: 5s;
+}
+#d12:hover{
+    transform: translateX(400px)rotate(360deg);
+    transition-duration: 5s;
+}
+a{
+    font-size: 40px;
+    font-weight: 700;
+    color: transparent;
+    /* background-image: linear-gradient(45deg,green,blue,aqua,yellow); */
+    background-image: url('../day5/Unsplash_zZs5Hbsi0G8.jpg');
+    background-size: 10%;
+    background-clip: text;
+}

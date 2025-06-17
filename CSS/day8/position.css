@@ -1,0 +1,63 @@
+div{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+section{
+    height: 400px;
+    width: 400px;
+    border: 2px solid;
+    position: relative;
+    /* left: 10%; */
+    /* top: 10%; */
+    /* bottom: 20%; */
+    /* right: 0%; */
+
+}
+section aside{
+    background-color: black;
+    border: 2px solid;
+    width: 100px;
+    height: 80px;
+
+}
+#d1{
+    background-color: blue;
+    /* position: static; */
+    /* top: 10%; */
+    /* left: 20%; */
+    /* right: 20%; */
+    /* bottom: 20%; */
+    position: absolute;
+    height: 20%;
+    top: 0%;
+    left: 30%;
+}
+section aside+aside+aside{
+    background-color: greenyellow;
+    height: 20%;
+    position: absolute;
+    top: 30%;
+}
+nav{
+    border: 2px solid;
+    height: 70px;
+    background-color: violet;
+    /* position: fixed;
+    width: 100%; */
+    position: sticky;
+    top: 0%;
+}
+ol{
+    list-style: none;
+}
+ol li+li{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+ol li+li+li{
+    position: absolute;
+    left: 90%;
+}
